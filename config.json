@@ -1,0 +1,27 @@
+{
+    "model_type": "resnet50",
+    "num_classes": 5,
+    "batch_size": 32,
+    "num_epochs": 2,
+    "learning_rate": 0.001,
+    "optimizer": "adam",
+    "scheduler": "reduce_on_plateau",
+    "loss_function": "weighted_ce",
+    "weight_decay": 0.0001,
+    "patience": 10,
+    "grad_clip": 1.0,
+    "image_size": [
+        224,
+        224
+    ],
+    "test_size": 0.2,
+    "val_size": 0.2,
+    "num_workers": 4,
+    "class_weights": [
+        1.0499999523162842,
+        0.9333333373069763,
+        0.9333333373069763,
+        1.0499999523162842,
+        1.0499999523162842
+    ]
+}

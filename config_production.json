@@ -1,0 +1,24 @@
+{
+    "model_type": "resnet50",
+    "num_classes": 5,
+    "batch_size": 8,
+    "num_epochs": 200,
+    "learning_rate": 5e-05,
+    "optimizer": "adamw",
+    "scheduler": "cosine",
+    "loss_function": "focal",
+    "weight_decay": 0.02,
+    "patience": 25,
+    "grad_clip": 0.3,
+    "image_size": [
+        512,
+        512
+    ],
+    "test_size": 0.1,
+    "val_size": 0.1,
+    "num_workers": 1,
+    "mixed_precision": true,
+    "early_stopping": true,
+    "save_best_only": true,
+    "monitor_metric": "val_accuracy"
+}

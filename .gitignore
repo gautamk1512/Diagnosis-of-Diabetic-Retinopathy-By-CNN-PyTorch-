@@ -1,0 +1,64 @@
+# Large files and directories
+checkpoints/
+logs/
+results/
+data/
+__pycache__/
+*.pth
+*.pt
+*.jpg
+*.jpeg
+*.png
+*.log
+*.pyc
+
+# IDE and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Python cache
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Model files
+*.h5
+*.pkl
+*.joblib
+
+# Large datasets
+*.csv
+*.json
+*.txt
+!requirements.txt
+!config.json
+!config_optimized.json
+!config_production.json
+!README.md
