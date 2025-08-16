@@ -2,13 +2,9 @@
 checkpoints/
 logs/
 results/
-data/
 __pycache__/
 *.pth
 *.pt
-*.jpg
-*.jpeg
-*.png
 *.log
 *.pyc
 
